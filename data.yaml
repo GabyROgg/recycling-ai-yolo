@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Aluminum can', 'Cardboard', 'Container for household chemicals', 'Glass bottle', 'Organic', 'Paper', 'Plastic bag', 'Plastic bottle', 'Plastic cup', 'Tin']
+
+roboflow:
+  workspace: simpledimploma
+  project: yolo-waste-detection-9ebbc
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/simpledimploma/yolo-waste-detection-9ebbc/dataset/2

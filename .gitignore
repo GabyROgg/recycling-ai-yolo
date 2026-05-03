@@ -1,0 +1,12 @@
+.venv/
+runs/
+train/
+valid/
+test/
+dataset_5classes/
+*.pt
+*.cache
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
